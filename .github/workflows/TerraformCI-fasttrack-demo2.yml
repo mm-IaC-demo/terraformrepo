@@ -5,7 +5,7 @@ on:
     branches: 
       - main
     paths:
-      - "demo-folder/iac-fasttrack/terraform/**"
+      - "IaC-test-repository\iac-fasttrack-DEMO\terraform**"
   workflow_dispatch:
 
 permissions:
@@ -14,7 +14,7 @@ permissions:
   pull-requests: write
 
 env:
-  WORKDIR: "demo-folder/iac-fasttrack-DEMO"
+  WORKDIR: "IaC-test-repository\iac-fasttrack-DEMO\terraform"
   TF_INPUT: "false"
   TF_IN_AUTOMATION: "true"
   TERRAFORM_VERSION: "1.13.3"
