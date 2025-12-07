@@ -7,7 +7,7 @@ on:
     paths:
       - "IaC-test-repository\iac-fasttrack-DEMO\terraform**"
   workflow_dispatch:
-  workflow_dispatch:
+
   
 permissions:
   id-token: write
