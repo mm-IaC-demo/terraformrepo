@@ -146,8 +146,8 @@ jobs:
             dev)
               {
                 echo "LOCATION=northeurope"
-                echo "RESOURCE_GROUP_NAME=rg-timdemotf-dev"
-                echo "STORAGE_ACCOUNT_NAME=timdemoftdev2025dsa"
+                echo "RESOURCE_GROUP_NAME=rg-mmdemotf-dev"
+                echo "STORAGE_ACCOUNT_NAME=mmdemoftdev2025dsa"
                 echo "STORAGE_ACCOUNT_TIER=Standard"
                 echo "STORAGE_ACCOUNT_REPLICATION_TYPE=LRS"
                 echo "CONTAINER_NAME=appdata-dev"
@@ -157,8 +157,8 @@ jobs:
             test)
               {
                 echo "LOCATION=northeurope"
-                echo "RESOURCE_GROUP_NAME=rg-timdemotf-test"
-                echo "STORAGE_ACCOUNT_NAME=timdemofttest2025dsa"
+                echo "RESOURCE_GROUP_NAME=rg-mmdemotf-test"
+                echo "STORAGE_ACCOUNT_NAME=mmdemofttest2025dsa"
                 echo "STORAGE_ACCOUNT_TIER=Standard"
                 echo "STORAGE_ACCOUNT_REPLICATION_TYPE=LRS"
                 echo "CONTAINER_NAME=appdata-test"
@@ -168,8 +168,8 @@ jobs:
             prod)
               {
                 echo "LOCATION=northeurope"
-                echo "RESOURCE_GROUP_NAME=rg-timdemotf-prod"
-                echo "STORAGE_ACCOUNT_NAME=timdemofttest2025dsa"
+                echo "RESOURCE_GROUP_NAME=rg-mmdemotf-prod"
+                echo "STORAGE_ACCOUNT_NAME=mmdemoftprod2025dsa"
                 echo "STORAGE_ACCOUNT_TIER=Standard"
                 echo "STORAGE_ACCOUNT_REPLICATION_TYPE=GRS"
                 echo "CONTAINER_NAME=appdata-prod"
