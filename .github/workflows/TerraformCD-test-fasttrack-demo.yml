@@ -24,7 +24,7 @@ permissions:
   issues: write
 
 env:
-  WORKDIR: "IaC-test-repository\iac-fasttrack-DEMO\terraform"
+  WORKDIR: "iac-fasttrack-DEMO\terraform"
   TF_INPUT: "false"
   TF_IN_AUTOMATION: "true"
   TERRAFORM_VERSION: "1.13.4"
